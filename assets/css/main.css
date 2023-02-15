@@ -132,3 +132,112 @@
     top: 165px;
     left: 200px;
   }
+
+  main{
+    display: flex;
+    position: relative;
+    padding: 20px;
+    max-width: 100%;
+    width: 100%;
+    padding-bottom:70%;
+  
+  }
+  .rules_container{
+    position: absolute;
+    top: 165px;
+    left: 200px;
+    width: 70%;
+    
+  }
+
+  .title2, .title3 {
+    width: 90%;
+    text-align:left
+  }
+
+  .list1{
+    display: flex;
+    position: absolute;
+    left: 15px;
+
+  }
+  .list2{
+    position: absolute;
+    left: 15px;
+    
+
+  }
+  .info_schedule{
+    position: absolute;
+    top: 165px;
+    left: 200px;
+    width: 70%;
+    
+
+  }
+
+  .table_container{
+    display: flex;
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    align-items: center;
+    justify-content: center;
+  }
+  .info{
+    margin-bottom: 25px;
+  }
+
+  .footer_info{
+    font-size: 18px;
+    display: flex;
+    position: absolute;
+    top: 90%;
+    left: 200px;
+    padding-bottom: 2%;
+    flex-wrap: wrap;
+    width:78%;
+    
+  }
+  .contact_Information{
+    display: inline-flex;
+  }
+  .number{
+    padding-right: 300px;
+  }
+  table {
+    font-size: 15px;
+    table-layout: fixed;
+    border: 1px inset black;
+    border-spacing: 0;
+
+
+   
+    }
+
+th {
+    background-color:rgb(68,114,196);
+    color: white;
+    align-items: center;
+    padding:10px;
+    border: 1px inset black;
+    border-spacing: 0;
+
+
+}
+
+td {
+    padding: 10px 25px;
+    background-color: white;
+    border: 1px inset black;
+    border-spacing: 0;
+
+
+}
+th:hover{
+  background-color: rgb(56, 94, 160);;
+
+}
+
+
+
